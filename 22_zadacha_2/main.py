@@ -1,5 +1,6 @@
 file = open('zen.txt','r')
 lines_list = file.readlines()
+file.close()
 lines_list.reverse()
 print(''.join(lines_list))
 
